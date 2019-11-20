@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:typeface">serif</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColor">#5b5b5b</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textCursorDrawable">@color/colorAccent</item>
+        @
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/Black</item>
+    </style>
+
+
+    <style name="DatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/White</item>
+    </style>
+    <style name="button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="textWhite" parent="textThin">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorHint">@color/divider</item>
+    </style>
+    <style name="textThin" parent="parentText">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="parentText">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+    </style>
+    <style name="styleButtonPositiveBorderConfirm" parent="button">
+        <item name="android:background">@drawable/bg_button_positive_confirm</item>
+    </style>
+    <style name="textUpCase" parent="button">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/colorTransparent</item>
+    </style>
+
+    <style name="styleButtonBigPositiveBorder" parent="textUpCase">
+        <item name="android:background">@drawable/bg_border</item>
+    </style>
+    <style name="styleCalendarText">
+        <item name="android:textColor">@color/my_custom_day_color</item>
+    </style>
+
+    <style name="spinnerTheme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/light_grey</item>
+    </style>
+
+    <style name="styleHeaderCalendarPrimary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="styleButton2PositiveBorder" parent="textUpCase">
+        <item name="android:background">@drawable/bg_button_2_positive_border</item>
+    </style>
+    <style name="textBold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="styleButtonBigNegativeBorder" parent="textUpCase">
+        <item name="android:background">@drawable/bg_button_negative_border</item>
+    </style>
+
+    <style name="styleButtonBigPositiveBorder1" parent="textUpCase">
+        <item name="android:background">@drawable/bg_button_positive_border</item>
+    </style>
+
+    <style name="styleButtonCancelBooking" parent="button">
+        <item name="android:background">@drawable/bg_button_cancel_booking</item>
+    </style>
+
+
+    <style name="textHeader" parent="textBold">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

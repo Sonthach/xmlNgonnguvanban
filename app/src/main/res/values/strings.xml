@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Email</string>
+    <string name="ok">Đồng ý</string>
+    <string name="cancel">Hủy</string>
+    <string name="no_connection">Không có kết nối mạng !</string>
+    <string name="your_phone_number">Nhập email</string>
+    <string name="your_pass_word">Nhập mật khẩu</string>
+    <string name="remember_account">Nhớ tài khoản</string>
+    <string name="login">Đăng nhập</string>
+    <integer name="ripple_duration">150</integer>
+    <integer name="ripple_duration_100">100</integer>
+    <string name="displayName">Tên người dùng</string>
+    <string name="confirmPassword">Xác nhận lại mật khẩu</string>
+    <string name="out">Hủy</string>
+    <string name="register">Đăng ký</string>
+    <string name="information">Thông tin</string>
+    <string name="placeHolderText">Empty</string>
+    <string name="my_profile">Trang cá nhân</string>
+    <string name="my_children_profile">Thông tin Học sinh</string>
+    <string name="support">Hỗ trợ</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="signout">Đăng xuất</string>
+    <string name="logout_question">Bạn có muốn đăng xuất?</string>
+    <string name="nav_open">Mở menu Navigation</string>
+    <string name="nav_close">Đóng menu Navigation</string>
+    <string name="xem_diem">Xem điểm</string>
+    <string name="chuyen_can">Chuyên cần</string>
+    <string name="danh_gia">Ý kiến</string>
+    <string name="thoi_khoa_bieu">Thời khóa biểu</string>
+    <string name="dat_lich_nghi">Đặt lịch nghỉ</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="no_notification">Bạn không có thông báo nào</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="tro_chuyen">Trò chuyện</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="enter_current_password">Vui lòng nhập mật khẩu cũ</string>
+    <string name="enter_new_password">Vui lòng nhập mật khẩu mới</string>
+    <string name="password_wrong">Mật khẩu phải ít nhất 4 kí tự</string>
+    <string name="enter_comfirm_password">Vui lòng xác nhận lại mật khẩu mới</string>
+    <string name="password_do_not_match">Xác nhận mật khẩu mới không hợp lệ</string>
+    <string name="default_notification_channel_id">ID_NOTIFICATIONS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

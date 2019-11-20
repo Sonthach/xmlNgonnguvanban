@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1B75BC-->
+    <!--27AAE1-->
+    <color name="colorAccent">#1B75BC</color>
+    <color name="White">#FFFFFF</color>
+    <color name="colorPrimary">#1B75BC</color>
+    <color name="colorPrimaryLight">#27AAE1</color>
+    <color name="colorPrimaryThird">#27AAE1</color>
+    <color name="colorPrimaryDark">#004a8b</color>
+    <color name="colorPrimaryThirdDark">#004a8b</color>
+    <color name="colorBookingGray">#fcf9f9</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_54">#8a000000</color>
+    <color name="black">#000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="light_grey">#DDDDDD</color>
+    <color name="light_grey_2">#f1f1f1</color>
+    <color name="md_green_A700">#00C853</color>
+    <color name="highlightt">#9aabd9</color>
+    <color name="colorNoneSelect">#a6a6a6</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlack40">#71000000</color>
+    <color name="colorGray">#787878</color>
+    <color name="mdtp_accent_color_focused">@color/colorWhite</color>
+    <color name="colorEditText">#292929</color>
+    <color name="colorBlackLight">#484848</color>
+    <color name="colorOrangeLight">#f1916b</color>
+    <color name="colorTextLight">#949494</color>
+
+    <color name="colorCancel">#ff3f3f</color>
+    <color name="colorCancelDark">#ff2d2d</color>
+    <color name="colorRed">#ff2d2d</color>
+
+    <color name="drawerHeaderColor">#FFED87</color>
+    <color name="drawerHeaderIcon">#666666</color>
+
+    <color name="colorBlack_30">#59000000</color>
+    <color name="black_30">#28000000</color>
+    <color name="colorBackground">#f0eff5</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorNegative">#787878</color>
+    <color name="colorNegativeDark">#5e5e5e</color>
+    <color name="colorPressedLight">#f1f1f1</color>
+    <color name="colorPressed">#dcdcdc</color>
+    <color name="colorHeader">#5fa3ef</color>
+    <color name="colorBranchSelected">#5fa3ef</color>
+    <color name="colorBackgroundText">#5fa3ef</color>
+    <color name="colorIconGray">#666666</color>
+    <color name="colorDisable">#c7c7c7</color>
+    <color name="colorChart3">#E43935</color>
+    <color name="colorChart">#FB8B00</color>
+    <color name="colorChart2">#45A047</color>
+    <color name="colorChart4">#06ACC1</color>
+    <color name="colorChart4Dark">#0697a9</color>
+    <color name="colorTourGuideBackground">#7d000000</color>
+    <color name="colorAngry">#ff5533</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="board">#fdfdfe</color>
+    <color name="colorAccentOpacity">#eff7711a</color>
+
+    //Chat Color
+    <color name="weather_blur">#af000000</color>
+    <color name="md_grey_600">#757575</color>
+
+    <color name="primaryText">@color/md_grey_900</color>
+    <color name="secondaryText">#727272</color>
+    <color name="divider">#B6B6B6</color>
+
+</resources>

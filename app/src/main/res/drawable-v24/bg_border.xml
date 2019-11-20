@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" xmlns:android="http://schemas.android.com/apk/res/android">
+        <shape>
+            <solid android:color="@color/colorNegativeDark" />
+            <corners android:radius="@dimen/radius" />
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/colorRed" />
+            <corners android:radius="@dimen/radius" />
+        </shape>
+    </item>
+</selector>

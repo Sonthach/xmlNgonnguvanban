@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/lineTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp10"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/form_contain"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginEnd="@dimen/dp15"
+        android:layout_marginStart="@dimen/dp15"
+        android:layout_marginTop="@dimen/dp5"
+        android:background="@drawable/bg_shadow_item_home"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp15"
+        android:paddingTop="@dimen/dp15"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp0"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgChatAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/dp3"
+                tools:src="@drawable/default_user_avatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgIsOnline"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@id/imgChatAvatar"
+                android:layout_marginEnd="@dimen/dp5"
+                android:layout_marginTop="@dimen/dp25"
+                android:background="@android:color/transparent"
+                android:src="@color/md_green_A700"
+                app:civ_border_color="@color/colorWhite"
+                app:civ_border_width="@dimen/dp1"
+                android:visibility="gone"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgIsOffline"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@id/imgChatAvatar"
+                android:layout_marginEnd="@dimen/dp5"
+                android:layout_marginTop="@dimen/dp25"
+                android:background="@android:color/transparent"
+                android:src="@color/light_grey"
+                app:civ_border_color="@color/colorWhite"
+                app:civ_border_width="@dimen/dp1"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dp0"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/txtReceiverName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp16"
+                    android:layout_weight="9.5"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    tools:text="@string/placeHolderText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

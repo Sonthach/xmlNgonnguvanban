@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_avatar"
+            android:title="Hồ sơ" />
+
+        <item
+            android:id="@+id/nav_receiver"
+            android:icon="@drawable/ic_receiver"
+            android:title="Hộp thư đến" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send_mail"
+            android:title="Thư đã gửi" />
+
+
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/ic_people_mail"
+            android:title="Cộng đồng" />
+
+    </group>
+</menu>
